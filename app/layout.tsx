@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head />
-      <body className={cn(inter.className, "flex flex-col h-screen w-screen")}>
+      <body className={cn(inter.className, "min-h-screen min-w-full overflow-y-auto overflow-x-hidden")}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
