@@ -27,7 +27,7 @@ Tired of reconfiguring [shadcn/ui](https://github.com/shadcn/ui) every single ti
 
 3. Install dependencies:
    ```bash
-   npm install
+   npm install --force
    ```
 
 4. Run the project:
