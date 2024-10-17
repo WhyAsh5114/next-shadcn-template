@@ -6,8 +6,8 @@ import { Inter } from "next/font/google";
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
-  title: "Dev Log",
-  description: "WhyAsh5114's dev log",
+  title: "Create Next App",
+  description: "Created by create-next-app",
 };
 
 const inter = Inter({
