@@ -6,8 +6,8 @@ import { Inter } from "next/font/google";
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
-  title: "Dev Log",
-  description: "WhyAsh5114's dev log",
+  title: "Create Next App",
+  description: "Created by create-next-app",
 };
 
 const inter = Inter({
@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head />
-      <body className={cn(inter.className, "flex flex-col h-screen w-screen")}>
+      <body className={cn(inter.className, "min-h-screen min-w-full overflow-y-auto overflow-x-hidden")}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
